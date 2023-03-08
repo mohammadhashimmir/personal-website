@@ -1,0 +1,171 @@
+body{
+    position: relative; 
+    background-color: white;
+}
+.leftBox{
+    width:40%;
+     height: 633px; 
+     margin-top: 0px;
+     background-color:#E6DACE; 
+     z-Index :0;  
+   
+}
+div.ui.container.centerBox{
+    width:45%;
+    height :400px;
+     margin-top:-527px;
+     z-Index:1;  
+    padding: 25px 20px 25px 20px ; 
+   
+}
+.CenterBoxLeftCard{
+    width:40%;
+    height:350px;
+    background-color:#F4ECE6; 
+    z-Index:2;
+    text-align:center;
+    box-shadow: -2px 4px 20px #a5a5a5; 
+}
+div.ui.container.leftboxContent{
+    padding-top: 20px; 
+}
+div.ui.segment.topSocial{
+    margin-top:-1px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius:0;
+    box-shadow: none;
+}
+img.ui.centered.medium.circular.image{
+   width:150px;
+   height:150px;
+}
+.firstHeader{
+    margin:auto;
+     margin-top:20px;
+     font-size: 20px;
+     font-weight: bold;
+      margin-bottom:1px;
+      font-family: 'Poppins', sans-serif;   
+}
+.secondHeader{
+    margin:auto;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;  
+}
+.para1{
+margin-top: 10px;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 0.5px;
+font-size: 14px;
+
+}
+
+div.ui.card.contentBox{
+    height :350px;
+    margin-top:-355px;
+    margin-left: 280px; 
+}
+
+.cardHeading{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; 
+}
+.cardSubHeading{
+    margin-top: -12px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;  
+   font-weight: bold; 
+   font-size: 15px;
+}
+div.ui.container.buttonSection{
+   margin-bottom: 20px;
+}
+.ui.card>.content p, .ui.cards>.card>.content p {
+    margin: 30px 0 0.5em;
+}
+.para2{
+  
+    font-family: 'Exo', sans-serif; 
+    text-align: justify; 
+    color:#67605c ; 
+    font-size: 12px;
+    margin-top: 20px;  
+}
+.skills{
+    font-family: 'Kosugi Maru', sans-serif;
+    letter-spacing: 0.5px; 
+    color:#67605c ; 
+   font-size: 11px;
+ }
+button.ui.button.mainPageB1{
+    background-color: #67605c;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.8s;
+}
+button.ui.button.mainPageB1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #67605c;
+    transform: translateY(-0.2em);
+}
+button.ui.button.mainPageB2{
+    background-color:white;
+  border: 1px solid #67605c;
+    border-radius: 20px;
+    transition: all 0.8s;
+}
+button.ui.button.mainPageB2:hover{
+    background-color:#67605c;
+    color:white;
+    border: none;
+    transform: translateY(-0.2em);
+}
+div.ui.card.contentBox{
+border: none;
+border-radius: 0;
+box-shadow: none;
+}
+
+
+ @media  only screen and (min-width:375px) and (max-width: 580px){
+    .CenterBoxLeftCard {
+        width: 50%!important;
+        margin-left:-30px!important;
+        margin-right: 1em!important; 
+    }
+    div.ui.card.contentBox{
+        width: 60%!important;   
+        margin-left: 200px!important;  
+    }
+    div.ui.container.buttonSection{
+        margin-left: 0px!important; 
+    }
+    button.ui.button.mainPageB1, button.ui.button.mainPageB2{
+       padding: 10px!important;
+    }
+}
+
+@media  only screen and (min-width:580px) and (max-width: 768px){
+.CenterBoxLeftCard {
+    width: 50%!important;
+    margin-left:-30px!important;
+    margin-right: 1em!important; 
+}
+} 
+
+ @media only screen and (min-width: 768px) and (max-width:1100px) {
+    .CenterBoxLeftCard {
+        width: 70%!important;
+        margin-left:1em!important;
+        margin-right: 1em!important;
+    }
+    div.ui.card.contentBox{
+     width: 80%;
+    }  
+} 

@@ -1,0 +1,128 @@
+div.ui.menu.main{
+    height: 8vh;
+    box-shadow: none;
+    border: 0;
+    margin: 0;
+}
+div.ui.right.menu.m2{
+    display: none!important;
+     padding:7px; 
+     position: absolute;
+    top: 0;
+     right: 0;
+    }
+div.ui.vertical.menu.m3{
+    font-family: 'Poppins', sans-serif;
+   position: fixed;
+   width: 100%;
+   margin-top:0px;
+   z-index: 99;
+}
+div.ui.vertical.menu.m3 >a:hover{
+    background-color:#E6DACE!important;
+  
+  
+}
+a.item.title{
+    width: 30%;
+    margin-left: 15px!important; 
+}
+.ui.menu .item:before{
+    background: none;
+}
+h4.menuTitle{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    font-size: 1.2em;
+}
+h4.menuTitle:hover{
+    cursor: pointer;
+}
+span.menuSpan{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+div.ui.right.menu.m1{
+    margin-right: 40px; 
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+a.item.a2, a.item.a3{
+margin-right: 40px; 
+}
+a.item.a2,a.item.a3,a.item.a4{
+    font-family: 'Poppins', sans-serif; 
+}
+a.item:hover{
+    background: none!important;
+}
+a.item.a2::after, a.item.a3::after, a.item.a4::after{
+    content: "";
+    position: absolute;
+    background-color:#67605c;
+    border-radius: 200px;
+    height: 2px;
+    width: 00%;
+    transition: 0.3s;
+    margin-top: 30px;
+    margin-left: -10px; 
+    }
+a.item.a2:hover::after, a.item.a3:hover::after, a.item.a4:hover::after{
+width: 90%;
+}
+@media  only screen and (max-width:500px){
+    div.ui.vertical.menu.m3{
+        width: 150%!important;
+    }
+    div.ui.right.menu.m2{
+        display:block!important;
+        right: 100px!important;
+        position:fixed;
+      }
+      a.item.title{
+        margin-left: 0!important; 
+        width: 80vw;
+    }
+    h4.menuTitle, span.menuSpan{
+        font-size: 0.7em;
+    }
+}
+
+@media  only screen and (max-width:767px){
+    div.ui.menu.main{
+        height: 5vh;
+    }
+    a.item.title{
+        width: 500px;
+    }
+    div.ui.right.menu.m1{
+        display: none!important;
+    }
+    div.ui.right.menu.m2{
+      display:initial!important;
+      right: 0!important; 
+    }
+    i.big.sidebar.icon.hambrgr{
+        display:contents;
+    }
+}
+
+
+@media  only screen and (min-width:768px) and (max-width: 1355px){
+    a.item.title{
+        width: 55%;
+    }
+}
+@media  only screen and (min-width:767px){
+    div.ui.vertical.menu.m3 >a{
+        background-color: pink;
+        display: none;
+      
+    }
+    div.ui.vertical.menu.m3{
+      display: none;
+     }
+}
+

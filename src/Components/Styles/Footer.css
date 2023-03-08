@@ -1,0 +1,70 @@
+body{
+    position: absolute;
+    bottom: 0px;
+}
+div.ui.bottom.fixed.stackable.menu.m1{
+     height:8vh;  
+    padding-top: 3px;
+    border:none;
+    box-shadow:none;
+}
+div.left.menu{
+    text-align: center;
+}
+p.pCredit{
+margin-left:10px;
+margin-top: 3vh;
+font-family:'Sen', sans-serif;
+font-size:0.8em
+    }
+    a.wix{
+        color:#67605c ;
+        text-decoration: underline;
+    }
+div.right.menu.m1{
+    text-align: center;
+}
+div.section1, div.section2{
+    margin-right:30px;
+}
+div.section3{
+    margin-right:30px;
+    }
+    p.pCall, p.pWrite, P.pFollow {
+        font-family: 'Sen', sans-serif;
+         font-size:0.7em;
+         font-weight:bold;
+    }
+
+.pNumber, .pMail,.pSocial {
+  font-family:'Sen', sans-serif;
+  font-size:0.8em}
+.s2{
+    font-size: 0.8em;
+}
+.s3, .s4, .s5, .s6{
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+a{
+    color: inherit;
+    transition: all 0.5s;
+}
+@media  only screen and (max-width: 768px){
+    div.ui.bottom.fixed.stackable.menu.m1{
+         height:21vh;  
+        border:none;
+        box-shadow:none;
+    }
+    div.left.menu{
+        display: none!important;
+    }
+}
+@media  only screen and (min-width:768px) and (max-width: 1530px){
+    div.ui.bottom.fixed.stackable.menu.m1{
+         height:12vh;
+        border:none;
+        box-shadow:none;
+    }
+}
+
