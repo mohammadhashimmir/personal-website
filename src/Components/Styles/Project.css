@@ -48,9 +48,9 @@ div.ui.raised.card:hover img{
 
 @media only screen and (max-width:1350px){
 .ui.stackable.cards> .ui.raised.card {
-    height: 400px!important;
+    height: 400px;
    margin-top: 20px;
-    padding: 0!important;
+    padding: 0;
     width: 300px!important;
 }
 div.content{
