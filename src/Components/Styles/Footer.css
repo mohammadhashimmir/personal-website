@@ -16,11 +16,11 @@ margin-left:10px;
 margin-top: 3vh;
 font-family:'Sen', sans-serif;
 font-size:0.8em
-    }
-    a.wix{
-        color:#67605c ;
-        text-decoration: underline;
-    }
+ }
+ a.wix{
+    color:#67605c ;
+    text-decoration: underline;
+}
 div.right.menu.m1{
     text-align: center;
 }
@@ -30,10 +30,10 @@ div.section1, div.section2{
 div.section3{
     margin-right:30px;
     }
-    p.pCall, p.pWrite, P.pFollow {
-        font-family: 'Sen', sans-serif;
-         font-size:0.7em;
-         font-weight:bold;
+p.pCall, p.pWrite, P.pFollow {
+    font-family: 'Sen', sans-serif;
+     font-size:0.7em;
+     font-weight:bold;
     }
 
 .pNumber, .pMail,.pSocial {

@@ -5,7 +5,7 @@ div.ui.menu.main{
     margin: 0;
 }
 div.ui.right.menu.m2{
-    display: none!important;
+    display: none!important; 
      padding:7px; 
      position: absolute;
     top: 0;
@@ -25,7 +25,7 @@ div.ui.vertical.menu.m3 >a:hover{
 }
 a.item.title{
     width: 30%;
-    margin-left: 15px!important; 
+    margin-left: 15px; 
 }
 .ui.menu .item:before{
     background: none;
