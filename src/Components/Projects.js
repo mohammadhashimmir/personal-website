@@ -24,6 +24,13 @@ const list=[
   link:"https://crypto-check-app.netlify.app/",
   details:"Check latest Crpto Prices,Volume, Market Cap and much more."},
 
+  // {name:"Final Year Project (Without Python Code)",
+  // tech:"using HTML, CSS, JS, Python & Flask ",
+  // image:Crypto,
+  // alt:"Main Page",
+  // link:"https://crypto-check-app.netlify.app/",
+  // details:"Front End of Final Year Project(Without Python code and Trainer)."},
+
   {name:"To-Do List",
   tech:"using VJS",
   image:todovjs,
