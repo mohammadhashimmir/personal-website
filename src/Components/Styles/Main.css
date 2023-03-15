@@ -135,7 +135,7 @@ box-shadow: none;
 
  @media  only screen and (max-width: 580px){
     div.ui.container.centerBox{
-         margin-top:-545px; 
+         margin-top:-535px; 
     }
     .CenterBoxLeftCard {
         width: 50%;

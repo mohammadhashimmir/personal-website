@@ -52,7 +52,7 @@ a{
 }
 @media  only screen and (max-width: 768px){
     div.ui.bottom.fixed.stackable.menu.m1{
-         height:21vh;  
+         height:19vh;  
         border:none;
         box-shadow:none;
     }
