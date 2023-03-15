@@ -7,6 +7,7 @@ import skvjs from "../Components/Images/skvjs.jpg";
 import skreact from "../Components/Images/skreact.jpg";
 import calcreact from "../Components/Images/calcreact.jpg";
 import calcvjs from "../Components/Images/calcvjs.jpg";
+import finalyear from "../Components/Images/finalyear.jpg";
 import "../Components/Styles/Project.css";
 const list=[
 
@@ -24,12 +25,12 @@ const list=[
   link:"https://crypto-check-app.netlify.app/",
   details:"Check latest Crpto Prices,Volume, Market Cap and much more."},
 
-  // {name:"Final Year Project (Without Python Code)",
-  // tech:"using HTML, CSS, JS, Python & Flask ",
-  // image:Crypto,
-  // alt:"Main Page",
-  // link:"https://crypto-check-app.netlify.app/",
-  // details:"Front End of Final Year Project(Without Python code and Trainer)."},
+  {name:"Final Year Project (Without Python Code)",
+  tech:"using HTML, CSS, JS, Python & Flask ",
+  image:finalyear,
+  alt:"Photo by charlesdeluvio on Unsplash",
+  link:"https://finalyear-frontend.netlify.app/",
+  details:"Front End of Final Year Project(Without Python code and Trainer)."},
 
   {name:"To-Do List",
   tech:"using VJS",
