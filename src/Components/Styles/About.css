@@ -69,7 +69,7 @@ button.ui.button.aboutPageb2:hover{
 }
 @media  only screen and (max-width:500px){
     div.ui.main.text.container{
-        font-size: 13px; 
+        font-size: 12px; 
         margin-top: -87vh;
         width: 90%!important; 
         margin-left: 10%!important;
@@ -77,7 +77,7 @@ button.ui.button.aboutPageb2:hover{
     }
     div.ui.container.buttonBox{
         width: 300px!important;
-        margin-top:-5px;
+        margin-top:-6px;
     
     } 
     
