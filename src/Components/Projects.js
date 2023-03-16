@@ -105,9 +105,10 @@ const renderedList=list.map((items)=>{
 const Projects=()=>{
     return (
       <div>
-         <div className="background"></div>
+         <div className="background">
     <div className="ui four centered stackable cards">   
 {renderedList}
+    </div>
     </div>
     </div>
     )
