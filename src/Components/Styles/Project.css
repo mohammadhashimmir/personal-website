@@ -38,7 +38,12 @@ div.ui.raised.card:hover{
 div.ui.raised.card:hover img{
     filter: brightness(100%)!important;
 }
-
+.background{
+    width:100%;
+     margin-top:20px;
+     background-color:#F4ECE6; 
+     z-Index :0;
+}
 
 @media only screen and (max-width:1350px){
 .ui.stackable.cards> .ui.raised.card {
@@ -59,8 +64,7 @@ div.content{
     .ui.stackable.cards> .ui.raised.card{
         background-color:#F4ECE6 ;
         width: 65vw!important;
-        margin-left:17.5vw;
-        margin-top: 20px!important; 
+        margin-left:17.5vw; 
     } 
     .background{
         background-color: white;
@@ -71,6 +75,5 @@ div.content{
         background-color:#F4ECE6 ;
         margin-left:20%; 
         margin-right: 20%;
-        margin-top: 20px!important; 
     } 
 }
