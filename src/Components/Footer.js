@@ -24,7 +24,7 @@ const Footer=()=>{
     <div  className="section2">
     <p className="pWrite">Write</p>
     <div>
-    <p className="pMail"><a href="mailto:mohammadhashim619@gmail.com">mohammadhashim619@gmail.com<a/></a></p>
+    <p className="pMail"><a href="mailto:mohammadhashim619@gmail.com">mohammadhashim619@gmail.com</a></p>
     </div>
     </div>
 
