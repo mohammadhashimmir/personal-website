@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import "../Components/Styles/Main.css";
-import {BsTwitter,BsInstagram,BsFacebook,BsLinkedin,BsGithub} from "react-icons/bs";
+import {BsTwitterX,BsInstagram,BsFacebook,BsLinkedin,BsGithub} from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import dp from "../Components/Images/dp.png";
 
@@ -21,7 +21,7 @@ const Main=()=>{
             <p className="para1">FRONT-END DEVELOPER</p>
 <div className="ui segment topSocial">
     <div> 
-    <a href="https://twitter.com/mmdhashim?t=DxHgFpN6ndBDlL6FPLVD3Q&s=09"><span className="s2"> <BsTwitter/></span></a>
+    <a href="https://twitter.com/mmdhashim?t=DxHgFpN6ndBDlL6FPLVD3Q&s=09"><span className="s2"> <BsTwitterX/></span></a>
     <a href="https://instagram.com/hashem_meer?igshid=YmMyMTA2M2Y="><span className="s3"> <BsInstagram/></span></a>
     <a href="https://www.facebook.com/Iamhashm"><span className="s4"> <BsFacebook/></span></a> 
     <a href="https://www.linkedin.com/in/mohammad-hashim-mir-8a8a71206/"><span className="s5"> <BsLinkedin/></span></a> 
