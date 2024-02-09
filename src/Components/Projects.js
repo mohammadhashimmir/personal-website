@@ -1,4 +1,5 @@
 import React from "react";
+import notekeeper from "../Components/Images/notekeeper.jpg";
 import wiki from "../Components/Images/wiki.jpg";
 import Crypto from "../Components/Images/crypto.jpg";
 import todovjs from "../Components/Images/todovjs.jpg";
@@ -10,6 +11,12 @@ import calcvjs from "../Components/Images/calcvjs.jpg";
 import finalyear from "../Components/Images/finalyear.jpg";
 import "../Components/Styles/Project.css";
 const list=[
+  {name:"Advanced Notekeeper with database",
+  tech:"using React",
+  image:notekeeper,
+  alt:"Photo by Kelly Sikkema on Unsplash",
+  link:"https://notekeeper-hashim.netlify.app/",
+  details:"Add, edit, delete, pin and check notes."},
 
   {name:"3 in 1(Wiki, YT, Unsplash) Search",
   tech:"using React",
@@ -33,7 +40,7 @@ const list=[
   details:"Front End of Final Year Project(Without Python code and Trainer)."},
 
   {name:"To-Do List",
-  tech:"using VJS",
+  tech:"using JS",
   image:todovjs,
   alt:"",
   link:"https://todo-with-vjs.netlify.app/",
@@ -54,7 +61,7 @@ const list=[
   details:"Track Score of 2 Teams."},
   
   {name:"Score Keeper",
-  tech:"using VJS",
+  tech:"using JS",
   image:skvjs,
   alt:"Photo by Nick Fewings on Unsplash",
   link:"https://scorekeeper-wth-vjs.netlify.app/",
@@ -68,7 +75,7 @@ const list=[
   details:"Basic Calculator."},
   
   {name:"Calculator",
-  tech:"using VJS",
+  tech:"using JS",
   image:calcvjs,
   alt:"Photo by Iryna Tysiak on Unsplash",
   link:"https://calculator-with-vjs.netlify.app/",
