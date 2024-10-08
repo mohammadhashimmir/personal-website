@@ -24,8 +24,8 @@ export const resumeData = [
     }
     ],
     [
-        { period: "04/2023-04/2024", title: "Front-end Developer", company: "Aasma Technocrats", details: contributions1 },
-        { period: "08/2022-04/2023", title: "Front-end Developer", company: "Freelance", details: contributions2 }
+        { period: "08/2023-08/2024", title: "Front-end Developer", company: "Aasma Technocrats", details: contributions1 },
+        { period: "08/2022-08/2023", title: "Front-end Developer", company: "Freelance", details: contributions2 }
     ],
     [
         { period: "08/2017 - 05/2022", title: "Bachelor of Engineering", institution: "University Of Kashmir", details: "Bachelor of Engineering in Computer Science" },
