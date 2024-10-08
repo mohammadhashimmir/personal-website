@@ -1,0 +1,48 @@
+.footer-main {
+    width: 100%;
+    height: 30vh;
+    background-color: #171717;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    border-top: 1px solid #d9d9d9;
+}
+
+.footer-item {
+    color: #d9d8d7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.contact-link-header {
+    font-family: 'Sen', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.contact-link,
+.copyright {
+    font-family: 'Sen', sans-serif;
+    font-size: 0.9em;
+}
+
+.contact-link:hover {
+    cursor: pointer;
+    color: #1e70bf
+}
+
+
+@media only screen and (max-width:768px) {
+    .footer-main {
+        flex-direction: column;
+        gap: 0em;
+    }
+
+    .footer-item {
+        gap: 0.3em;
+    }
+}

@@ -1,0 +1,177 @@
+.resume-section {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 10vh;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-header {
+    padding: 1em;
+    display: flex;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--header-color);
+}
+
+.resume-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.resume-item {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+    box-shadow: var(--resume-section-shadow);
+}
+
+.resume-item-individual {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.resume-item-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.resume-item-details {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timeline,
+.timeline-certification,
+.skill-title {
+    text-align: right;
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.timeline-details,
+.skill-details {
+    text-align: left;
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.timeline .period,
+.skill-title .title {
+    color: var(--bulma-body-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.timeline .title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.timeline-details .org,
+.certifications {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.timeline-details .org-details,
+.skill-details .skill-set {
+    list-style-type: disc;
+    font-size: 0.9em;
+    font-family: "Exo", sans-serif;
+}
+
+.certificate-provider {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9em;
+}
+
+.skill-set {
+    display: flex;
+    list-style-position: inside;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.resume-button {
+    padding: 1em;
+    margin-bottom: 10vh;
+    background-color: #d9d8d7;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .resume-item,
+    .resume-header {
+        width: 100%;
+        padding: 1em;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .resume-item-details {
+        width: 100%;
+    }
+
+    .resume-item-individual {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .timeline,
+    .timeline-details,
+    .skill-title,
+    .skill-details {
+        text-align: left;
+        padding: 0;
+    }
+
+    .timeline-certification {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .resume-item,
+    .resume-header {
+        width: 90%;
+    }
+}

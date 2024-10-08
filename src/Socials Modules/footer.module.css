@@ -1,0 +1,13 @@
+.socialLinksFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    font-size: 1em;
+}
+
+.socialLinkFooter:hover {
+    cursor: pointer;
+    color: #1e70bf
+}
